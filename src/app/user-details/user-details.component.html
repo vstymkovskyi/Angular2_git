@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-offset-2 col-md-8 col-lg-offset-3 col-lg-6">
+      <div class="well profile">
+        <div class="col-sm-12">
+          <div class="col-xs-12 col-sm-8">
+            <h2>{{userProfile.name}}</h2>
+            <p><strong>ID: </strong> {{userProfile.id}}</p>
+            <p><strong>Login: </strong> {{userProfile.login}}</p>
+            <p><strong>Location: </strong> {{userProfile.location}}</p>
+            <p><strong>Bio: </strong> {{userProfile.bio}}</p>
+            <p><strong>Created date: </strong> {{userProfile.created_at | date: 'dd/MM/yyyy HH:mm:ss'}}</p>
+            <p><strong>Link: </strong> <a href="{{userProfile.html_url}}" target="_blank">view</a></p>
+          </div>
+          <div class="col-xs-12 col-sm-4 text-center">
+            <figure>
+              <img src="{{userProfile.avatar_url}}" alt="" class="img-circle img-responsive" />
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

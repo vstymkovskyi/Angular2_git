@@ -1,0 +1,32 @@
+#lock {
+  width:30%;
+  margin: 20px auto 20px auto;
+  display:block;
+}
+
+#git {
+  border: 1px solid #95989A;
+  background: #fff  url('../../assets/images/github.png') no-repeat 20px center;
+  background-size: 35px;
+}
+
+#google {
+  border: 1px solid #95989A;
+  background: #fff  url('../../assets/images/google.svg') no-repeat 25px;
+  background-size: 25px;
+}
+
+#email {
+  background: #ECECEC  url('../../assets/images/email.svg') no-repeat 25px;
+  background-size: 25px;
+}
+
+@media (max-width: 600px) {
+  #page {
+    padding:1em;
+  }
+  #toolbar {
+    width:90%;
+    margin-left: -45%;
+  }
+}
